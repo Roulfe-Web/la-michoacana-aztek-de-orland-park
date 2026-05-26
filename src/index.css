@@ -6,10 +6,21 @@
   --color-azul: #1F9E99;
   --color-rosa: #DC4061;
   --color-amarillo: #FBB519;
-  --color-verde: #9BB22F;
+  --color-lime: #9BB22F;
   --color-aranjado: #EC6D23;
 
   --color-bg: #FCF2DE;
+}
+
+@utility hover-rosa {
+  cursor: pointer;
+  color: var(--color-rosa);
+  transition: 300ms;
+}
+
+@keyframes carrousel {
+  from {translate: 0;}
+  to {translate: -100%;}
 }
 
 :root {

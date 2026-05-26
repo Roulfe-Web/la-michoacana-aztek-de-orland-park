@@ -1,0 +1,10 @@
+@import "tailwindcss";
+@import "src/index.css";
+
+@utility menu-button {
+    cursor: pointer;
+}
+
+@utility menu-button-hover {
+    text: var(--color-rosa);
+}

@@ -1,5 +1,4 @@
-type ItemName = "Ice Cream" | "Paletas" | "Mangonadas" | "Elote" | "Bebidas" | "Snacks";
-type ItemColor = "amarillo" | "azul" | "rosa" | "aranjado" | "verde";
+type ItemColor = "amarillo" | "azul" | "rosa" | "aranjado" | "lime";
 
 type ItemCardProps = {
     text: string;
