@@ -98,7 +98,7 @@ function Menu() {
     useState<CategoryId>("iceCream");
 
   return (
-    <section className="bg-bg px-6 py-20 md:px-24">
+    <section className="bg-bg px-6 py-14 md:px-24">
       <div className="mx-auto max-w-6xl text-center">
 
         <ul className="mt-12 flex flex-wrap justify-center gap-3">
