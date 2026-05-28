@@ -35,6 +35,16 @@ const menuItems: Record<CategoryId, MenuItem[]> = {
       description: "Classic milkshake blended with your choice of ice cream.",
       image: "/assets/menu/milkshake.webp",
     },
+    {
+      name: "Banana Split",
+      description: "A delicious banana split with three scoops and toppings.",
+      image: "/assets/menu/banana-split.webp",
+    },
+    {
+      name: "Tres Marias",
+      description: "Waffle bowl with 3 scoops of ice cream",
+      image: "/assets/menu/tres-marias.webp",
+    },
   ],
   paletas: [
     {
@@ -66,6 +76,11 @@ const menuItems: Record<CategoryId, MenuItem[]> = {
       description: "Fresh fruit topped with cream, granola, and sweet toppings.",
       image: "/assets/menu/bionico.webp",
     },
+    {
+      name: "Fruit Cocktail",
+      description: "Fresh mix of cucumber, mango, pineapple, watermelon, seasoned with chamoy, lime, salt, and tajin.",
+      image: "/assets/menu/fruit-cocktail.webp",
+    },
   ],
   snacks: [
     {
@@ -78,6 +93,36 @@ const menuItems: Record<CategoryId, MenuItem[]> = {
       description: "Crunchy chips prepared with sauces, toppings, and flavor.",
       image: "/assets/menu/frituras.webp",
     },
+    {
+      name: "Nachos",
+      description: "Corn chips with American cheese and jalapenos",
+      image: "/assets/menu/nachos.webp",
+    },
+    {
+      name: "Papas Fritas",
+      description: "Thinly sliced potatoes, fried until golden. Option to add toppings.",
+      image: "/assets/menu/papas_fritas.webp",
+    },
+    {
+      name: "Cueritos",
+      description: "Snack of pickled pork skins, served with choice of Chamoy, lime, or Valentina sauce toppings.",
+      image: "/assets/menu/cueritos.webp",
+    },
+    {
+      name: "Dorinachos",
+      description: "Choice of chips served with a side of melted american cheese and jalapeños",
+      image: "/assets/menu/dorinachos.webp",
+    },
+    {
+      name: "Chicharrones",
+      description: "Fried pork skins, optional topped with cabbage, cream, and salsa",
+      image: "/assets/menu/chicharrones.webp",
+    },
+    {
+      name: "Cheetos con Queso",
+      description: "Cheetos covered in melted american cheese, served with jalapeños",
+      image: "/assets/menu/cheetos.webp",
+    }
   ],
   drinks: [
     {
@@ -108,8 +153,8 @@ function Menu() {
                 onClick={() => setActiveCategory(category.id)}
                 className={`rounded-full px-5 py-2 ${
                   activeCategory === category.id
-                    ? "border-1 border-amarillo text-amarillo"
-                    : "text-black hover:text-amarillo transition duration-200"
+                    ? "border-1 border-amarillo text-amarillo cursor-pointer"
+                    : "text-black hover:text-amarillo transition duration-200 cursor-pointer"
                 }`}
               >
                 {category.label}

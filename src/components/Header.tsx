@@ -23,7 +23,9 @@ function Header() {
                         <Link to="/contact"><li className="hover:hover-rosa">Contact</li></Link>
                     </ul>
                 </nav>
-                <OrderOnlineButton text="Order Online" color="azul" size="lg"/>
+                <Link to="https://www.doordash.com/store/la-michoacana-azteca-orland-park-1431425/31846562/?srsltid=AfmBOorn-dw4u6kJBkn1Ei9SgLEFQFVJxdK__0syucelxuyAhxPHwPiU" target="_blank" rel="noopener noreferrer">
+                    <OrderOnlineButton text="Order Online" color="azul" size="lg"/>
+                </Link>
             </div>
         </header>
     );
