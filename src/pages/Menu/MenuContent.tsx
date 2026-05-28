@@ -20,7 +20,7 @@ const categories: { id: CategoryId; label: string }[] = [
   { id: "mangonadas", label: "Mangonadas" },
   { id: "fruitTreats", label: "Fruit Treats" },
   { id: "snacks", label: "Snacks" },
-  { id: "drinks", label: "Aguas Frescas" },
+  { id: "drinks", label: "Drinks" },
 ];
 
 const menuItems: Record<CategoryId, MenuItem[]> = {
@@ -29,11 +29,6 @@ const menuItems: Record<CategoryId, MenuItem[]> = {
       name: "Ice Cream Cup",
       description: "Creamy scoops served in a cup with your favorite flavors.",
       image: "/assets/menu/ice-cream.webp",
-    },
-    {
-      name: "Milkshake",
-      description: "Classic milkshake blended with your choice of ice cream.",
-      image: "/assets/menu/milkshake.webp",
     },
     {
       name: "Banana Split",
@@ -126,14 +121,44 @@ const menuItems: Record<CategoryId, MenuItem[]> = {
   ],
   drinks: [
     {
-      name: "Horchata",
-      description: "A sweet and refreshing rice-cinnamon agua fresca.",
-      image: "/assets/menu/horchata.webp",
+      name: "Agua Fresca",
+      description: "Refreshing fruit-infused water.",
+      image: "/assets/menu/agua-fresca.webp",
     },
     {
-      name: "Jamaica",
-      description: "Refreshing hibiscus agua fresca served cold.",
-      image: "/assets/menu/jamaica.webp",
+      name: "Milkshake",
+      description: "Classic milkshake blended with your choice of ice cream.",
+      image: "/assets/menu/milkshake.webp",
+    },
+    {
+      name: "Smoothie",
+      description: "A blend of fresh fruits and yogurt.",
+      image: "/assets/menu/smoothie.webp",
+    },
+    {
+      name: "Orange Juice",
+      description: "Choice between 20oz and 32oz.",
+      image: "/assets/menu/orange-juice.webp",
+    },
+    {
+      name: "Monster Preparado",
+      description: "Monster energy drink with chamoy, lime, and tajin.",
+      image: "/assets/menu/monster-preparado.webp",
+    },
+    {
+      name: "Monster",
+      description: "",
+      image: "/assets/menu/monster.webp",
+    },
+    {
+      name: "Red Bull",
+      description: "",
+      image: "/assets/menu/red-bull.webp",
+    },
+    {
+      name: "Gatorade",
+      description: "",
+      image: "/assets/menu/gatorade.webp",
     },
   ],
 };
