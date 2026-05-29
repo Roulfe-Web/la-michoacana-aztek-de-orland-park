@@ -36,6 +36,16 @@ const menuItems: Record<CategoryId, MenuItem[]> = {
       image: "/assets/menu/banana-split.webp",
     },
     {
+      name: "Waffle Single",
+      description: "Waffle bowl with 1 scoop of ice cream",
+      image: "/assets/menu/waffle-single.webp",
+    },
+    {
+      name: "Waffle Double",
+      description: "Waffle bowl with 2 scoops of ice cream",
+      image: "/assets/menu/waffle-double.webp",
+    },
+    {
       name: "Tres Marias",
       description: "Waffle bowl with 3 scoops of ice cream",
       image: "/assets/menu/tres-marias.webp",
