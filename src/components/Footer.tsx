@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 
 function Footer() {
 
@@ -28,10 +29,15 @@ function Footer() {
                                 referrerPolicy="no-referrer-when-downgrade">
                         </iframe>
                     </div>
-                    <div className="flex flex-col md:flex-row justify-center items-center gap-14 bg-azul text-gray-300 position-relative">
-                        <p>Made by <span className="hover:hover-rosa position-absolute">Roulfe</span></p>
-                    </div>
+                    
             </footer>
+            <div className="flex flex-col md:flex-row justify-center items-center gap-14 bg-azul text-gray-300 position-relative">
+                 <p>Made by {" "}
+                    <Link to="https://roulfe.com/" className="hover:text-rosa position-absolute" target="_blank" rel="noopener noreferrer">
+                         Roulfe
+                    </Link>
+                </p>
+            </div>
         </>
     );
 }

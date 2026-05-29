@@ -1,4 +1,4 @@
-import MenuButton from "./MenuButton";
+
 import MenuContent from "./MenuContent";
 
 function Menu() {
