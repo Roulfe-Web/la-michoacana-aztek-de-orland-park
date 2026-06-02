@@ -12,7 +12,7 @@ function About() {
                 </p>
             </div>
             <div className="felx">
-                <img src="src\assets\istockphoto-1147544807-612x612.jpg" alt="Storefront" className="object-contain" />
+                <img src="src\assets\storefront.webp" alt="Storefront" className="object-contain rounded-2xl" />
             </div>
         </section>
     );

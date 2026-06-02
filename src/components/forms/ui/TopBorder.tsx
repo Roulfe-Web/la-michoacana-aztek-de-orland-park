@@ -1,14 +1,17 @@
+import topBorder from "../../../assets/papel_picado_top_border.webp";
+// adjust path depending on where TopBorder.tsx lives
 
 function TopBorder() {
-
-    return (
-        <div className="flex flex-row items-center overflow-hidden">
-                <img src="src/assets/papel_picado_top_border.webp" alt="border" className="w-lg" />
-                <img src="src/assets/papel_picado_top_border.webp" alt="border" className="w-lg" />
-                <img src="src/assets/papel_picado_top_border.webp" alt="border" className="w-lg" />
-                <img src="src/assets/papel_picado_top_border.webp" alt="border" className="w-lg" />
-        </div>
-    );
+  return (
+    <div
+      className="h-8 w-full bg-repeat-x bg-top md:h-10"
+      style={{
+        backgroundImage: `url(${topBorder})`,
+        backgroundSize: "360px auto",
+      }}
+      aria-hidden="true"
+    />
+  );
 }
 
 export default TopBorder;

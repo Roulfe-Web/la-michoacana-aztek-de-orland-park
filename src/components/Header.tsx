@@ -140,7 +140,7 @@ function Header() {
               >
                 <OrderOnlineButton
                   text="Order Online"
-                  color="azul"
+                  color="rosa"
                   size="lg"
                 />
               </a>
@@ -152,7 +152,7 @@ function Header() {
       {/* Mobile floating Order Online bar */}
       <div className="fixed bottom-4 left-1/2 z-50 w-[calc(100%-2rem)] max-w-sm -translate-x-1/2 md:hidden">
         <a href={doorDashUrl} target="_blank" rel="noopener noreferrer">
-          <OrderOnlineButton text="Order Online" color="azul" size="lg" />
+          <OrderOnlineButton text="Order Online" color="rosa" size="lg" />
         </a>
       </div>
     </>

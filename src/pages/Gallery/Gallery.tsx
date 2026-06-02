@@ -70,13 +70,13 @@ const galleryMedia: GalleryMedia[] = [
 function getMediaSizeClass(size: GalleryMedia["size"]) {
   switch (size) {
     case "large":
-      return "md:col-span-2 md:row-span-2 h-80 md:h-full";
+      return "h-72 sm:h-80 md:col-span-2 md:row-span-2 md:h-full";
     case "wide":
-      return "md:col-span-2 h-64";
+      return "h-72 sm:h-80 md:col-span-2 md:h-64";
     case "tall":
-      return "md:row-span-2 h-80 md:h-full";
+      return "h-72 sm:h-80 md:row-span-2 md:h-full";
     default:
-      return "h-64";
+      return "h-72 sm:h-80 md:h-64";
   }
 }
 
@@ -103,7 +103,7 @@ function Gallery() {
       </section>
 
       <section className="bg-bg px-6 pb-20 md:px-24">
-        <div className="mx-auto grid max-w-7xl auto-rows-[260px] grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-4">
+        <div className="mx-auto grid max-w-7xl grid-cols-1 gap-6 sm:grid-cols-2 md:auto-rows-[260px] md:gap-4 lg:grid-cols-4">
           {galleryMedia.map((media) => (
             <button
               key={media.src}

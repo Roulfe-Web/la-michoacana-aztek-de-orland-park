@@ -19,8 +19,13 @@
 }
 
 @keyframes carrousel {
-  from {translate: 0;}
-  to {translate: -100%;}
+  from {
+    transform: translateX(0);
+  }
+
+  to {
+    transform: translateX(-50%);
+  }
 }
 
 :root {
@@ -28,9 +33,21 @@
   font-family: "Bebas Neue", sans-serif;
 }
 
-html, body {
+html, body, #root {
   margin: 0;
   padding: 0;
+  width: 100%;
+  max-width: 100%;
+  min-height: 100%;
+  overflow-x: clip;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+* {
+  box-sizing: border-box;
 }
 
 .bebas-neue-regular {
