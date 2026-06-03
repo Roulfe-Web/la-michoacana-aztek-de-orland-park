@@ -1,3 +1,4 @@
+import storefront from "/src/assets/storefront.webp";
 
 function About() {
 
@@ -11,8 +12,8 @@ function About() {
                     Lorem ipsum. Lorem ipsum. Lorem ipsum. Lorem ipsum. Lorem ipsum
                 </p>
             </div>
-            <div className="felx">
-                <img src="src\assets\storefront.webp" alt="Storefront" className="object-contain rounded-2xl" />
+            <div className="flex">
+                <img src={storefront} alt="Storefront" className="object-contain rounded-2xl" />
             </div>
         </section>
     );

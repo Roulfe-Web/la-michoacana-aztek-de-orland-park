@@ -6,12 +6,14 @@ import Menu from "./pages/Menu/Menu";
 import About from "./pages/About/About";
 import Gallery from "./pages/Gallery/Gallery";
 import Contact from "./pages/Contact/Contact";
+import ScrollToTop from "./components/ScrollToTop";
 
 
 function App() {
 
   return (
     <BrowserRouter>
+    <ScrollToTop />
       <div className="min-h-screen flex flex-col">
         <Header />
         <main className="flex-1">

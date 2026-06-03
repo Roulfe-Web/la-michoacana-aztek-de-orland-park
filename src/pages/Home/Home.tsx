@@ -3,14 +3,14 @@ import ItemCard from "../../components/ItemCard";
 import { Link } from "react-router-dom";
 
 import mangonada from "../../assets/mangonada_transparent.webp";
-import storyImage from "../../assets/istockphoto-1147544807-612x612.jpg";
+import logo from "../../assets/logo.webp";
 
 function Home() {
   return (
     <>
       {/* Hero Section */}
       <section className="overflow-hidden bg-bg px-6 py-12 md:flex md:min-h-[760px] md:px-24 md:py-0 lg:min-h-[850px]">
-        <div className="z-10 flex flex-col items-start justify-center md:w-1/2">
+        <div className="z-10 flex flex-col items-center justify-center text-center md:w-1/2 md:items-start md:text-left">
           <h1 className="hero-title text-7xl leading-none sm:text-8xl md:text-9xl lg:text-[10rem]">
             <span className="rosa">Sweet.</span>{" "}
             <span className="aranjado">Spicy.</span>
@@ -133,7 +133,7 @@ function Home() {
 
       {/* Story Section */}
       <section className="flex flex-col items-center justify-between gap-10 bg-bg px-6 py-16 md:flex-row md:px-24 md:py-20 lg:gap-14">
-        <div className="max-w-2xl">
+        <div className="flex max-w-2xl flex-col items-center text-center md:items-start md:text-left">
           <h2 className="mb-6 text-4xl font-semibold leading-none tracking-wider sm:text-5xl md:text-6xl">
             A Taste of
             <br />
@@ -151,11 +151,11 @@ function Home() {
           </Link>
         </div>
 
-        <div className="w-full overflow-hidden rounded-2xl shadow-md md:w-1/2">
+        <div className="w-full overflow-hidden rounded-2xl md:w-1/2">
           <img
-            src={storyImage}
+            src={logo}
             alt="Our Story"
-            className="h-[280px] w-full object-cover sm:h-[360px] md:h-[460px]"
+            className="h-[280px] w-full object-contain sm:h-[360px] md:h-[460px]"
           />
         </div>
       </section>
