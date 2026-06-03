@@ -4,6 +4,11 @@ import { Link } from "react-router-dom";
 
 import mangonada from "../../assets/mangonada_transparent.webp";
 import storyImage from "../../assets/istockphoto-1147544807-612x612.jpg";
+import iceCream from "../../assets/menu/ice-cream.avif";
+import paletas from "../../assets/menu/paletas.avif";
+import elote from "../../assets/menu/elote.avif";
+import aguaFresca from "../../assets/menu/agua-fresca.avif";
+import chicharronPreparado from "../../assets/menu/chicharron-preparado.avif";
 
 function Home() {
   return (
@@ -56,37 +61,37 @@ function Home() {
               color="azul"
               text="Ice Cream"
               description="Delicious ice cream made with natural ingredients."
-              image="src/assets/menu/ice-cream.avif"
+              image={iceCream}
             />
             <ItemCard
               color="rosa"
               text="Paletas"
               description="Colorful popsicles perfect for a hot day."
-              image="src/assets/menu/paletas.avif"
+              image={paletas}
             />
             <ItemCard
               color="amarillo"
               text="Mangonadas"
               description="Refreshing mango smoothie blend."
-              image="src/assets/menu/mangonada.avif"
+              image={mangonada}
             />
             <ItemCard
               color="azul"
               text="Elote"
               description="Corn with a kick of flavor."
-              image="src/assets/menu/elote.avif"
+              image={elote}
             />
             <ItemCard
               color="rosa"
               text="Bebidas"
               description="A variety of refreshing drinks to quench your thirst."
-              image="src/assets/menu/agua-fresca.avif"
+              image={aguaFresca}
             />
             <ItemCard
               color="aranjado"
               text="Snacks"
               description="Delicious snacks to satisfy your cravings."
-              image="src/assets/menu/chicharron-preparado.avif"
+              image={chicharronPreparado}
             />
           </div>
 
@@ -95,37 +100,37 @@ function Home() {
               color="azul"
               text="Ice Cream"
               description="Delicious ice cream made with natural ingredients."
-              image="src/assets/menu/ice-cream.avif"
+              image={iceCream}
             />
             <ItemCard
               color="rosa"
               text="Paletas"
               description="Colorful popsicles perfect for a hot day."
-              image="src/assets/menu/paletas.avif"
+              image={paletas}
             />
             <ItemCard
               color="amarillo"
               text="Mangonadas"
               description="Refreshing mango smoothie blend."
-              image="src/assets/menu/mangonada.avif"
+              image={mangonada}
             />
             <ItemCard
               color="azul"
               text="Elote"
               description="Corn with a kick of flavor."
-              image="src/assets/menu/elote.avif"
+              image={elote}
             />
             <ItemCard
               color="rosa"
               text="Bebidas"
               description="A variety of refreshing drinks to quench your thirst."
-              image="src/assets/menu/agua-fresca.avif"
+              image={aguaFresca}
             />
             <ItemCard
               color="aranjado"
               text="Snacks"
               description="Delicious snacks to satisfy your cravings."
-              image="src/assets/menu/chicharron-preparado.avif"
+              image={chicharronPreparado}
             />
           </div>
         </div>
