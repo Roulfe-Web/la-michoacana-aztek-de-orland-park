@@ -56,37 +56,37 @@ function Home() {
               color="azul"
               text="Ice Cream"
               description="Delicious ice cream made with natural ingredients."
-              image="public/menu/ice-cream.avif"
+              image="/menu/ice-cream.avif"
             />
             <ItemCard
               color="rosa"
               text="Paletas"
               description="Colorful popsicles perfect for a hot day."
-              image="public/menu/paletas.avif"
+              image="/menu/paletas.avif"
             />
             <ItemCard
               color="amarillo"
               text="Mangonadas"
               description="Refreshing mango smoothie blend."
-              image="public/menu/mangonada.avif"
+              image="/menu/mangonada.avif"
             />
             <ItemCard
               color="azul"
               text="Elote"
               description="Corn with a kick of flavor."
-              image="public/menu/elote.avif"
+              image="/menu/elote.avif"
             />
             <ItemCard
               color="rosa"
               text="Bebidas"
               description="A variety of refreshing drinks to quench your thirst."
-              image="public/menu/agua-fresca.avif"
+              image="/menu/agua-fresca.avif"
             />
             <ItemCard
               color="aranjado"
               text="Snacks"
               description="Delicious snacks to satisfy your cravings."
-              image="public/menu/chicharron-preparado.avif"
+              image="/menu/chicharron-preparado.avif"
             />
           </div>
 
@@ -95,37 +95,37 @@ function Home() {
               color="azul"
               text="Ice Cream"
               description="Delicious ice cream made with natural ingredients."
-              image="public/menu/ice-cream.avif"
+              image="/menu/ice-cream.avif"
             />
             <ItemCard
               color="rosa"
               text="Paletas"
               description="Colorful popsicles perfect for a hot day."
-              image="public/menu/paletas.avif"
+              image="/menu/paletas.avif"
             />
             <ItemCard
               color="amarillo"
               text="Mangonadas"
               description="Refreshing mango smoothie blend."
-              image="public/menu/mangonada.avif"
+              image="/menu/mangonada.avif"
             />
             <ItemCard
               color="azul"
               text="Elote"
               description="Corn with a kick of flavor."
-              image="public/menu/elote.avif"
+              image="/menu/elote.avif"
             />
             <ItemCard
               color="rosa"
               text="Bebidas"
               description="A variety of refreshing drinks to quench your thirst."
-              image="public/menu/agua-fresca.avif"
+              image="/menu/agua-fresca.avif"
             />
             <ItemCard
               color="aranjado"
               text="Snacks"
               description="Delicious snacks to satisfy your cravings."
-              image="public/menu/chicharron-preparado.avif"
+              image="/menu/chicharron-preparado.avif"
             />
           </div>
         </div>
