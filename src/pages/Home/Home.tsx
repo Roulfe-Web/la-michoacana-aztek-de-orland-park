@@ -33,7 +33,7 @@ function Home() {
           </Link>
         </div>
 
-        <div className="relative mt-10 h-[430px] w-full overflow-hidden md:mt-0 md:h-auto md:w-1/2">
+        <div className="relative mt-10 h-[430px] w-full overflow-visible md:mt-0 md:h-auto md:w-1/2">
           <img
             src={mangonada}
             alt="Mangonada"
@@ -56,31 +56,37 @@ function Home() {
               color="azul"
               text="Ice Cream"
               description="Delicious ice cream made with natural ingredients."
+              image="src/assets/menu/ice-cream.avif"
             />
             <ItemCard
               color="rosa"
               text="Paletas"
               description="Colorful popsicles perfect for a hot day."
+              image="src/assets/menu/paletas.avif"
             />
             <ItemCard
               color="amarillo"
               text="Mangonadas"
               description="Refreshing mango smoothie blend."
+              image="src/assets/menu/mangonada.avif"
             />
             <ItemCard
               color="azul"
               text="Elote"
               description="Corn with a kick of flavor."
+              image="src/assets/menu/elote.avif"
             />
             <ItemCard
               color="rosa"
               text="Bebidas"
               description="A variety of refreshing drinks to quench your thirst."
+              image="src/assets/menu/agua-fresca.avif"
             />
             <ItemCard
               color="aranjado"
               text="Snacks"
               description="Delicious snacks to satisfy your cravings."
+              image="src/assets/menu/chicharron-preparado.avif"
             />
           </div>
 
@@ -89,31 +95,37 @@ function Home() {
               color="azul"
               text="Ice Cream"
               description="Delicious ice cream made with natural ingredients."
+              image="src/assets/menu/ice-cream.avif"
             />
             <ItemCard
               color="rosa"
               text="Paletas"
               description="Colorful popsicles perfect for a hot day."
+              image="src/assets/menu/paletas.avif"
             />
             <ItemCard
               color="amarillo"
               text="Mangonadas"
               description="Refreshing mango smoothie blend."
+              image="src/assets/menu/mangonada.avif"
             />
             <ItemCard
               color="azul"
               text="Elote"
               description="Corn with a kick of flavor."
+              image="src/assets/menu/elote.avif"
             />
             <ItemCard
               color="rosa"
               text="Bebidas"
               description="A variety of refreshing drinks to quench your thirst."
+              image="src/assets/menu/agua-fresca.avif"
             />
             <ItemCard
               color="aranjado"
               text="Snacks"
               description="Delicious snacks to satisfy your cravings."
+              image="src/assets/menu/chicharron-preparado.avif"
             />
           </div>
         </div>

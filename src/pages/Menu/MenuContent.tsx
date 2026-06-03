@@ -42,17 +42,17 @@ const menuItems: Record<CategoryId, MenuItem[]> = {
     {
       name: "Waffle Single",
       description: "Waffle bowl with 1 scoop of ice cream.",
-      image: "src/assets/menu/waffle-single.avif",
+      image: "src/assets/menu/waffle-single.webp",
     },
     {
       name: "Waffle Double",
       description: "Waffle bowl with 2 scoops of ice cream.",
-      image: "src/assets/menu/waffle-double.avif",
+      image: "src/assets/menu/waffle-double.webp",
     },
     {
       name: "Tres Marias",
       description: "Waffle bowl with 3 scoops of ice cream.",
-      image: "src/assets/menu/tres-marias.avif",
+      image: "src/assets/menu/tres-marias.webp",
     },
   ],
   paletas: [
@@ -69,54 +69,54 @@ const menuItems: Record<CategoryId, MenuItem[]> = {
     {
       name: "Whole Pecan Popsicle",
       description: "Creamy paleta with whole pecans for a delightful crunch.",
-      image: "src/assets/menu/pecan-paleta.avif",
+      image: "src/assets/menu/pecan-paleta.webp",
     },
     {
       name: "Ferrero Rocher Popsicle",
       description: "Indulgent paleta infused with Ferrero Rocher.",
-      image: "src/assets/menu/ferrero-paleta.avif",
+      image: "src/assets/menu/ferrero-paleta.webp",
     },
     {
       name: "Dry Fruit Popsicle",
       description: "Paleta with a mix of dried fruits.",
-      image: "src/assets/menu/dry-fruit-paleta.avif",
+      image: "src/assets/menu/dry-fruit-paleta.webp",
     },
     {
       name: "Strawberry Popsicle",
       description: "Classic strawberry paleta with a sweet and tangy flavor.",
-      image: "src/assets/menu/strawberry-paleta.avif",
+      image: "src/assets/menu/strawberry-paleta.webp",
     },
     {
       name: "Escamocha Popsicle",
       description: "Paleta inspired by the flavors of escamocha, with a mix of fresh fruits and sweet cream.",
-      image: "src/assets/menu/escamocha-paleta.avif",
+      image: "src/assets/menu/escamocha-paleta.webp",
     },
     {
       name: "Esquimal",
       description: "Classic Mexican paleta with a creamy, chocolate-covered exterior and a sweet, creamy interior. Also has an option with pecans.",
-      image: "src/assets/menu/esquimal-paleta.avif",
+      image: "src/assets/menu/esquimal-paleta.webp",
     },
   ],
   frozen: [
     {
       name: "Gansito",
       description: "Classic Gansito snack cake, with a creamy, fruity interior and a chocolate coating.",
-      image: "src/assets/menu/gansito.avif",
+      image: "src/assets/menu/gansito.webp",
     },
     {
       name: "Chocobanana",
       description: "Frozen banana dipped in chocolate and covered with toppings.",
-      image: "src/assets/menu/chocobanana.avif",
+      image: "src/assets/menu/chocobanana.webp",
     },
     {
       name: "Chocobanana with Pecans",
       description: "Frozen banana dipped in chocolate and covered with pecans.",
-      image: "src/assets/menu/chocobanana-pecan.avif",
+      image: "src/assets/menu/chocobanana-pecan.webp",
     },
     {
       name: "Frozen Strawberry Box",
       description: "Box of frozen strawberries, perfect for smoothies or snacking.",
-      image: "src/assets/menu/frozen-strawberries.avif",
+      image: "src/assets/menu/frozen-strawberries.webp",
     }
   ],
   mangonadas: [
@@ -128,7 +128,7 @@ const menuItems: Record<CategoryId, MenuItem[]> = {
     {
       name: "Mangonada Popsicle",
       description: "Paleta inspired by the flavors of a mangonada, with mango, chamoy, and tajín.",
-      image: "src/assets/menu/mangonada-paleta.avif",
+      image: "src/assets/menu/mangonada-paleta.webp",
     },
   ],
   fruitTreats: [
@@ -155,7 +155,7 @@ const menuItems: Record<CategoryId, MenuItem[]> = {
     {
       name: "Gazpacho",
       description: "Refreshing blend of fruits seasoned with chamoy, lime, salt, orange juice, and tajin.",
-      image: "src/assets/menu/gazpacho.avif",
+      image: "src/assets/menu/gazpacho.webp",
     }
   ],
   corn: [
@@ -167,7 +167,7 @@ const menuItems: Record<CategoryId, MenuItem[]> = {
     {
       name: "Elote en Palo",
       description: "Corn on the cob with creamy sauce and sprinkled with cheese and chili powder, served on a stick for easy eating.",
-      image: "src/assets/menu/elote-palo.avif",
+      image: "src/assets/menu/elote-palo.webp",
     },
     {
       name: "Flamin' Hot Elote",
@@ -177,14 +177,14 @@ const menuItems: Record<CategoryId, MenuItem[]> = {
     {
       name: "Flamin' Hot Elote en Palo",
       description: "Corn on the cob with creamy sauce, sprinkled with cheese and Flamin' Hot Cheetos powder, served on a stick for easy eating.",
-      image: "src/assets/menu/flamin-hot-elote-palo.avif",
+      image: "src/assets/menu/flamin-hot-elote-palo.webp",
     },
   ],
   snacks: [
     {
       name: "Chicharrones",
       description: "Fried pork skins, optional topped with cabbage, cream, and salsa.",
-      image: "src/assets/menu/chicharrones.avif",
+      image: "src/assets/menu/chicharrones.webp",
     },
     {
       name: "Chicharron Preparado",
@@ -194,7 +194,7 @@ const menuItems: Record<CategoryId, MenuItem[]> = {
     {
       name: "Chips",
       description: "Variety of chips choices. Option to add cheese.",
-      image: "src/assets/menu/chips.avif",
+      image: "src/assets/menu/chips.webp",
     },
     {
       name: "Dorilocos",
@@ -204,7 +204,7 @@ const menuItems: Record<CategoryId, MenuItem[]> = {
     {
       name: "Potato Chips",
       description: "Variety of potato chips. Option to add Cueritos.",
-      image: "src/assets/menu/potato-chips.avif",
+      image: "src/assets/menu/potato-chips.webp",
     },
     {
       name: "Cueritos",
@@ -229,7 +229,7 @@ const menuItems: Record<CategoryId, MenuItem[]> = {
     {
       name: "Sabritas Preparadas",
       description: "Variety of Sabritas chips prepared with cucumber, jicama, chamoy, lime, and tajin.",
-      image: "src/assets/menu/sabritas-preparadas.avif",
+      image: "src/assets/menu/sabritas-preparadas.webp",
     }
   ],
   drinks: [
@@ -241,47 +241,47 @@ const menuItems: Record<CategoryId, MenuItem[]> = {
     {
       name: "Milkshake",
       description: "Classic milkshake blended with your choice of ice cream.",
-      image: "src/assets/menu/milkshake.avif",
+      image: "src/assets/menu/milkshake.webp",
     },
     {
       name: "Smoothie",
-      description: "A blend of fresh fruits and yogurt.",
-      image: "src/assets/menu/smoothie.avif",
+      description: "A blend of fresh fruits.",
+      image: "src/assets/menu/smoothie.webp",
     },
     {
       name: "Orange Juice",
-      description: "Choice between 20oz and 32oz.",
-      image: "src/assets/menu/orange-juice.avif",
+      description: "Choice between 20 oz and 32 oz.",
+      image: "src/assets/menu/orange-juice.webp",
     },
     {
       name: "Monster Preparado",
       description: "Monster energy drink with chamoy, lime, and tajin.",
-      image: "src/assets/menu/monster-preparado.avif",
+      image: "src/assets/menu/monster-preparado.webp",
     },
     {
       name: "Monster",
       description: "",
-      image: "src/assets/menu/monster.avif",
+      image: "src/assets/menu/monster.webp",
     },
     {
       name: "Red Bull",
       description: "",
-      image: "src/assets/menu/red-bull.avif",
+      image: "src/assets/menu/red-bull.webp",
     },
     {
       name: "Gatorade",
       description: "",
-      image: "src/assets/menu/gatorade.avif",
+      image: "src/assets/menu/gatorade.webp",
     },
     {
       name: "Soda Bottle",
       description: "",
-      image: "src/assets/menu/soda-bottle.avif",
+      image: "src/assets/menu/soda-bottle.webp",
     },
     {
       name: "Soda Can",
       description: "",
-      image: "src/assets/menu/soda-can.avif",
+      image: "src/assets/menu/soda-can.webp",
     },
   ],
 };
