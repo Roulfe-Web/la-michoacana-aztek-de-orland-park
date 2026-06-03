@@ -9,6 +9,7 @@ import paletas from "../../assets/menu/paletas.avif";
 import elote from "../../assets/menu/elote.avif";
 import aguaFresca from "../../assets/menu/agua-fresca.avif";
 import chicharronPreparado from "../../assets/menu/chicharron-preparado.avif";
+import mangonada2 from "../../assets/menu/mangonada.avif";
 
 function Home() {
   return (
@@ -73,7 +74,7 @@ function Home() {
               color="amarillo"
               text="Mangonadas"
               description="Refreshing mango smoothie blend."
-              image={mangonada}
+              image={mangonada2}
             />
             <ItemCard
               color="azul"
@@ -112,7 +113,7 @@ function Home() {
               color="amarillo"
               text="Mangonadas"
               description="Refreshing mango smoothie blend."
-              image={mangonada}
+              image={mangonada2}
             />
             <ItemCard
               color="azul"
