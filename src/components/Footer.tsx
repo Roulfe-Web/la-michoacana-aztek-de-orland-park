@@ -29,7 +29,8 @@ function Footer() {
                                 className="border-0 rounded-2xl md:w-[600px] w-full" 
                                 allowFullScreen 
                                 loading="lazy" 
-                                referrerPolicy="no-referrer-when-downgrade">
+                                referrerPolicy="no-referrer-when-downgrade"
+                                title="Google Maps Location of La Michoacana Aztek">
                         </iframe>
                     </div>
                     

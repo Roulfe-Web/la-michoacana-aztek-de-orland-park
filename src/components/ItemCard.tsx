@@ -29,9 +29,9 @@ function ItemCard({ text, description, color = "rosa", image }: ItemCardProps) {
       />
 
       <div className="p-4 text-center text-white">
-        <h3 className="text-2xl font-semibold tracking-widest md:text-3xl">
+        <h2 className="text-2xl font-semibold tracking-widest md:text-3xl">
           {text}
-        </h3>
+        </h2>
 
         <p className="mt-2 text-base md:text-lg">{description}</p>
       </div>
