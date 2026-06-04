@@ -69,8 +69,8 @@ html::-webkit-scrollbar {
 .hero-title span {
   display: inline-block;
 
-  -webkit-mask-image: url("./assets/grunge-text-mask-punchout.png");
-  mask-image: url("./assets/grunge-text-mask-punchout.png");
+  -webkit-mask-image: url("./assets/grunge-text-mask-punchout.webp");
+  mask-image: url("./assets/grunge-text-mask-punchout.webp");
 
   -webkit-mask-size: 450px;
   mask-size: 450px;

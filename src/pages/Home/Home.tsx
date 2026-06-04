@@ -2,8 +2,9 @@ import OrderOnlineButton from "../../components/forms/ui/OrderOnlineButton";
 import ItemCard from "../../components/ItemCard";
 import { Link } from "react-router-dom";
 
-import mangonada from "../../assets/mangonada_transparent.webp";
-import logo from "../../assets/logo.webp";
+import mangonadaMobile from "/mangonada-mobile-500w.webp";
+import mangonadaDesktop from "/mangonada-desktop-800w.webp";
+import logo from "../../assets/logo-500.webp";
 
 function Home() {
   return (
@@ -34,17 +35,24 @@ function Home() {
         </div>
 
         <div className="relative mt-10 h-[430px] w-full overflow-visible md:mt-0 md:h-auto md:w-1/2">
-          <img
-            src={mangonada}
-            alt="Mangonada"
-            className="
-              absolute left-1/2 top-0
-              w-[420px] max-w-none -translate-x-1/2
-              sm:w-[500px]
-              md:top-16 md:w-[620px]
-              lg:w-[700px]
-            "
-          />
+          <picture>
+            <source media="(max-width: 768px)" srcSet={mangonadaMobile} />
+          
+
+            <img
+              src={mangonadaDesktop}
+              alt="Mangonada"
+              fetchPriority="high"
+              decoding="async"
+              className="
+                absolute left-1/2 top-0
+                w-[420px] max-w-none -translate-x-1/2
+                sm:w-[500px]
+                md:top-16 md:w-[620px]
+                lg:w-[700px]
+              "
+            />
+          </picture>
         </div>
       </section>
 
