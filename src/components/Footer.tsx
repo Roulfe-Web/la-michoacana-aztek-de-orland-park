@@ -12,7 +12,7 @@ function Footer() {
                         <p className="text-2xl font-light cursor-pointer hover:underline hover:text-rosa transition duration-300">
                             9169 151st St, Orland Park, IL 60462
                         </p>
-                        <p>
+                        <p className="text-xl">
                             Phone: (708) 949-8955
                         </p>
                         <p className="text-xl">
