@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 
 import mangonadaMobile from "/mangonada-mobile-500w.webp";
 import mangonadaDesktop from "/mangonada-desktop-800w.webp";
-import logo from "../../assets/logo-500.webp";
+import logo from "/logo-500.webp";
 
 function Home() {
   return (

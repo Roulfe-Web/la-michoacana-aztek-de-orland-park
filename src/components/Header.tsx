@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 import { useState } from "react";
 import OrderOnlineButton from "./forms/ui/OrderOnlineButton";
 import TopBorder from "./forms/ui/TopBorder";
-import logo from "../assets/logo-500.webp"; // adjust path if needed
+import logo from "/logo-500.webp"; // adjust path if needed
 
 const doorDashUrl =
   "https://www.doordash.com/store/la-michoacana-azteca-orland-park-1431425/31846562/?srsltid=AfmBOorn-dw4u6kJBkn1Ei9SgLEFQFVJxdK__0syucelxuyAhxPHwPiU";
