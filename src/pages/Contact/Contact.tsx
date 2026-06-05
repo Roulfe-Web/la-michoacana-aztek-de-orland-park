@@ -97,7 +97,7 @@ function Contact() {
                     </p>
 
                     <a
-                        href="public/la_michoacana_aztek_employment_application.pdf"
+                        href="/la_michoacana_aztek_employment_application.pdf"
                         download
                         className="inline-block rounded-xl bg-amarillo px-6 py-3 font-bold text-black tracking-wider hover:bg-dark-amarillo transition duration-300"
                     >
