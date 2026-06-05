@@ -150,7 +150,7 @@ const menuItems: Record<CategoryId, MenuItem[]> = {
     {
       name: "Yogurt with Fruit",
       description: "Creamy yogurt topped with fresh fruit and granola.",
-      image: "/menu/yogurt-fruit.avif",
+      image: "/menu/yogurt-fruit2.avif",
     },
     {
       name: "Gazpacho",
