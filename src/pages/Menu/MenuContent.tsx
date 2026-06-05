@@ -32,7 +32,7 @@ const menuItems: Record<CategoryId, MenuItem[]> = {
     {
       name: "Ice Cream Cup",
       description: "Creamy scoops served in a cup with your favorite flavors.",
-      image: "/menu/ice-cream.avif",
+      image: "/menu/ice-cream2.avif",
     },
     {
       name: "Banana Split",
@@ -64,7 +64,7 @@ const menuItems: Record<CategoryId, MenuItem[]> = {
     {
       name: "Dairy-Based Paletas",
       description: "Rich and creamy paletas with classic Mexican flavors.",
-      image: "/menu/cream-paletas.avif",
+      image: "/menu/cream-paletas2.avif",
     },
     {
       name: "Whole Pecan Popsicle",
@@ -123,7 +123,7 @@ const menuItems: Record<CategoryId, MenuItem[]> = {
     {
       name: "Mangonada",
       description: "Refreshing mango beverage with chamoy, lime, and tajin.",
-      image: "/menu/mangonada.avif",
+      image: "/menu/mangonada2.avif",
     },
     {
       name: "Mangonada Popsicle",
@@ -135,7 +135,7 @@ const menuItems: Record<CategoryId, MenuItem[]> = {
     {
       name: "Fresas con Crema",
       description: "Fresh strawberries with sweet cream.",
-      image: "/menu/fresas.avif",
+      image: "/menu/fresas2.avif",
     },
     {
       name: "Biónico",

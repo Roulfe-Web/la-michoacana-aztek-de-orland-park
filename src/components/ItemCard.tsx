@@ -1,5 +1,3 @@
-import itemImage from "../assets/istockphoto-1147544807-612x612.jpg";
-
 type ItemColor = "amarillo" | "azul" | "rosa" | "aranjado" | "lime";
 
 type ItemCardProps = {

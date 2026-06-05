@@ -64,7 +64,7 @@ function Home() {
               color="azul"
               text="Ice Cream"
               description="Delicious ice cream made with natural ingredients."
-              image="/menu/ice-cream.avif"
+              image="/menu/ice-cream2.avif"
             />
             <ItemCard
               color="rosa"
@@ -76,7 +76,7 @@ function Home() {
               color="amarillo"
               text="Mangonadas"
               description="Refreshing mango smoothie blend."
-              image="/menu/mangonada.avif"
+              image="/menu/mangonada2.avif"
             />
             <ItemCard
               color="azul"
@@ -103,7 +103,7 @@ function Home() {
               color="azul"
               text="Ice Cream"
               description="Delicious ice cream made with natural ingredients."
-              image="/menu/ice-cream.avif"
+              image="/menu/ice-cream2.avif"
             />
             <ItemCard
               color="rosa"
@@ -115,7 +115,7 @@ function Home() {
               color="amarillo"
               text="Mangonadas"
               description="Refreshing mango smoothie blend."
-              image="/menu/mangonada.avif"
+              image="/menu/mangonada2.avif"
             />
             <ItemCard
               color="azul"
