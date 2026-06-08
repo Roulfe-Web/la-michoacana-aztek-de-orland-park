@@ -133,7 +133,7 @@ function Contact() {
                             name="name"
                             type="text"
                             required
-                            className="rounded-xl border border-black/20 bg-white px-4 py-3"
+                            className="rounded-xl border border-black/20 font-sans bg-white px-4 py-3"
                             />
                         </div>
 
@@ -146,7 +146,7 @@ function Contact() {
                             name="email"
                             type="email"
                             required
-                            className="rounded-xl border border-black/20 bg-white px-4 py-3"
+                            className="rounded-xl border border-black/20 font-sans bg-white px-4 py-3"
                             />
                         </div>
 
@@ -159,7 +159,7 @@ function Contact() {
                             name="phone"
                             type="tel"
                             required
-                            className="rounded-xl border border-black/20 bg-white px-4 py-3"
+                            className="rounded-xl border border-black/20 font-sans bg-white px-4 py-3"
                             />
                         </div>
 
@@ -173,7 +173,7 @@ function Contact() {
                             type="file"
                             accept=".pdf,.doc,.docx,.jpg,.jpeg,.png"
                             required
-                            className="rounded-xl border border-black/20 bg-white px-4 py-3 cursor-pointer hover:bg-gray-100 transition duration-300"
+                            className="rounded-xl border border-black/20 font-sans bg-white px-4 py-3 cursor-pointer hover:bg-gray-100 transition duration-300"
                             />
                             <p className="text-sm text-black/60">
                             Please upload the completed application. File must be under 8 MB.
@@ -189,7 +189,7 @@ function Contact() {
                             name="resume"
                             type="file"
                             accept=".pdf,.doc,.docx"
-                            className="rounded-xl border border-black/20 bg-white px-4 py-3 cursor-pointer hover:bg-gray-100 transition duration-300"
+                            className="rounded-xl border border-black/20 font-sans bg-white px-4 py-3 cursor-pointer hover:bg-gray-100 transition duration-300"
                             />
                         </div>
 
