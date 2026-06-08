@@ -24,6 +24,9 @@ function Home() {
             <br />
             Made Daily
           </p>
+          <p className="mb-4 text-lg font-semibold tracking-wide md:text-xl">
+            La Michoacana Aztek • Orland Park, IL
+          </p>
 
           <Link to="/menu">
             <OrderOnlineButton

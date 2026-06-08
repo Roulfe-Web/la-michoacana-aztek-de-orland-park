@@ -125,8 +125,6 @@ function Gallery() {
                   src={media.src}
                   aria-label={media.title}
                   muted
-                  loop
-                  autoPlay
                   playsInline
                   preload="metadata"
                   className="h-full w-full object-cover"
@@ -165,6 +163,7 @@ function Gallery() {
             ) : (
               <video
                 src={selectedMedia.src}
+                aria-label={selectedMedia.title}
                 muted
                 controls
                 autoPlay
